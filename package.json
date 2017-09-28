@@ -1,0 +1,23 @@
+{
+  "name": "html5canvas",
+  "version": "1.0.0",
+  "description": "Canvas html5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aijaz1926/canvas.git"
+  },
+  "author": "Aijaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aijaz1926/canvas/issues"
+  },
+  "homepage": "https://github.com/aijaz1926/canvas#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
