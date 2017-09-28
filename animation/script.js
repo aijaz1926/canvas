@@ -1,6 +1,6 @@
 var canvas = document.querySelector("canvas")
 var ctx = canvas.getContext("2d");
-var circles;
+var circles, TOTAL_CIRCLES = 30;
 function getRandomRGBAColor() {
     var r = Math.floor(Math.random()*256);
     var g = Math.floor(Math.random()*256);
@@ -37,7 +37,7 @@ function init() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     circles = [];
-    for(var i=0;i<20;i++) {
+    for(var i=0;i<TOTAL_CIRCLES;i++) {
         circles.push(new Circle());
     }
 }
